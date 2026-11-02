@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+  <s:Body>
+    <u:BrowseResponse xmlns:u="urn:schemas-upnp-org:service:ContentDirectory:1">
+      <Result>&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0/&quot;&gt;&lt;container id=&quot;PushRoot&quot; parentID=&quot;0&quot; restricted=&quot;1&quot; childCount=&quot;2&quot;&gt;&lt;dc:title&gt;PushRoot&lt;/dc:title&gt;&lt;upnp:class&gt;object.container&lt;/upnp:class&gt;&lt;/container&gt;&lt;item id=&quot;DSC01234&quot; parentID=&quot;PushRoot&quot; restricted=&quot;1&quot;&gt;&lt;dc:title&gt;DSC01234.JPG&lt;/dc:title&gt;&lt;upnp:class&gt;object.item.imageItem.photo&lt;/upnp:class&gt;&lt;dc:date&gt;2026-11-01T10:15:30&lt;/dc:date&gt;&lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01;DLNA.ORG_FLAGS=00f00000000000000000000000000000&quot; resolution=&quot;9504x6336&quot; size=&quot;31457280&quot;&gt;http://192.168.122.1:64321/DSC01234.JPG&lt;/res&gt;&lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_SM&quot; resolution=&quot;1616x1080&quot; size=&quot;512000&quot;&gt;http://192.168.122.1:64321/DSC01234_SM.JPG&lt;/res&gt;&lt;res protocolInfo=&quot;http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_TN&quot; resolution=&quot;160x120&quot;&gt;http://192.168.122.1:64321/DSC01234_TN.JPG&lt;/res&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;</Result>
+      <NumberReturned>2</NumberReturned>
+      <TotalMatches>2</TotalMatches>
+      <UpdateID>7</UpdateID>
+    </u:BrowseResponse>
+  </s:Body>
+</s:Envelope>

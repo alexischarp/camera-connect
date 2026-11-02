@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/"
+           xmlns:av="urn:schemas-sony-com:av">
+  <container id="DateRoot" parentID="0" restricted="1" childCount="3" searchable="0">
+    <dc:title>Date</dc:title>
+    <upnp:class>object.container</upnp:class>
+  </container>
+  <container id="DateRoot/2026-11-01" parentID="DateRoot" restricted="1">
+    <dc:title>2026-11-01</dc:title>
+    <upnp:class>object.container.album.photoAlbum</upnp:class>
+    <av:containerClass>date</av:containerClass>
+  </container>
+  <item id="DSC01234" parentID="DateRoot/2026-11-01" restricted="1">
+    <dc:title>DSC01234.JPG</dc:title>
+    <upnp:class>object.item.imageItem.photo</upnp:class>
+    <dc:date>2026-11-01T10:15:30</dc:date>
+    <upnp:albumArtURI>http://192.168.122.1:64321/DSC01234_TN.JPG</upnp:albumArtURI>
+    <av:fileSize>31457280</av:fileSize>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG;DLNA.ORG_OP=01" resolution="9504x6336" size="31457280">http://192.168.122.1:64321/DSC01234.JPG</res>
+    <res protocolInfo="http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_SM" resolution="1616x1080" size="512000">http://192.168.122.1:64321/DSC01234_SM.JPG</res>
+  </item>
+  <item id="DSC01235" parentID="DateRoot/2026-11-01" restricted="1">
+    <dc:title>DSC01235.ARW</dc:title>
+    <upnp:class>object.item</upnp:class>
+    <res protocolInfo="http-get:*:application/octet-stream:*" size="61000000">http://192.168.122.1:64321/DSC01235.ARW</res>
+  </item>
+</DIDL-Lite>

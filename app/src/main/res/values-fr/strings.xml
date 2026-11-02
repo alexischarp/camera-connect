@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- French translation. Every string here must also exist in values/strings.xml (the English default). -->
+<resources>
+    <string name="home_headline">Votre appareil.</string>
+    <string name="home_intro">Vos photos, à portée de main.</string>
+    <string name="home_connection_details">Connecter votre appareil</string>
+    <!-- Home screen -->
+    <string name="home_status_title">État de la connexion</string>
+    <string name="home_status_disconnected">Appareil non connecté</string>
+    <string name="home_status_connecting">Connexion au Wi-Fi de l\'appareil… Acceptez la demande affichée par Android.</string>
+    <string name="home_status_connected">Connecté au Wi-Fi de l\'appareil</string>
+    <string name="home_status_lost">Connexion perdue : l\'appareil est éteint ou hors de portée.</string>
+    <string name="home_status_unavailable">Connexion impossible : demande refusée, délai dépassé ou réseau introuvable.</string>
+    <string name="home_status_error">Erreur lors de la demande de connexion. Vérifiez les permissions et que le Wi-Fi est activé.</string>
+    <string name="home_network_ssid">Réseau : %1$s</string>
+    <string name="home_network_candidates">Hôtes probables de l\'appareil : %1$s</string>
+    <string name="home_ssid_label">SSID de l\'appareil</string>
+    <string name="home_ssid_help">Laissez vide pour choisir le réseau DIRECT-… dans la liste proposée par Android.</string>
+    <string name="home_password_label">Mot de passe Wi-Fi</string>
+    <string name="home_password_show">Afficher le mot de passe</string>
+    <string name="home_password_hide">Masquer le mot de passe</string>
+    <string name="home_connect">Se connecter</string>
+    <string name="home_disconnect">Se déconnecter</string>
+    <string name="home_open_gallery">Ouvrir la galerie</string>
+    <string name="home_camera_searching">Recherche de l\'appareil sur le réseau…</string>
+    <string name="home_camera_failed_network_blocked">Le téléphone refuse d\'envoyer du trafic vers le réseau de l\'appareil. Un VPN est probablement actif : désactivez-le, puis réessayez.</string>
+    <string name="home_camera_failed_ssdp">L\'appareil ne répond pas aux requêtes UPnP. Vérifiez qu\'il affiche toujours son écran de transfert vers smartphone.</string>
+    <string name="home_camera_failed_description">L\'appareil a répondu mais sa description n\'a pas pu être lue.</string>
+    <string name="home_camera_failed_no_directory">L\'appareil ne propose pas de service ContentDirectory dans ce mode.</string>
+    <string name="home_camera_untested">Modèle d\'appareil non testé. L\'application peut quand même fonctionner. Sinon, partagez les logs de l\'écran de debug.</string>
+    <string name="home_retry">Réessayer</string>
+    <string name="home_language_change">Changer de langue</string>
+
+    <!-- Language menu -->
+    <string name="language_system">Langue du système</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">Galerie</string>
+    <string name="gallery_loading">Lecture des photos de l\'appareil…</string>
+    <string name="gallery_loading_more">Chargement des photos plus anciennes…</string>
+    <string name="gallery_empty">Aucune photo sur l\'appareil.</string>
+    <string name="gallery_error">Impossible de lire la galerie : %1$s</string>
+    <string name="gallery_refresh">Rafraîchir</string>
+    <plurals name="gallery_photo_count">
+        <item quantity="one">%1$d photo chargée</item>
+        <item quantity="other">%1$d photos chargées</item>
+    </plurals>
+
+    <!-- Preview -->
+    <string name="preview_download">Télécharger</string>
+    <string name="preview_download_again">Télécharger à nouveau</string>
+    <string name="preview_downloading">Téléchargement… %1$d %%</string>
+    <string name="preview_downloading_bytes">Téléchargement… %1$s</string>
+    <string name="preview_saved">Photo enregistrée dans %1$s</string>
+    <string name="preview_saved_detail">Enregistrée dans %1$s (%2$s)</string>
+    <string name="preview_failed">Échec du téléchargement : %1$s</string>
+    <string name="preview_raw_notice">Fichier RAW : l\'appareil ne transfère pas l\'original. Seule une version JPEG plus petite est disponible.</string>
+    <string name="preview_original_unknown">Original en pleine résolution</string>
+    <string name="preview_missing">Photo introuvable : revenez à la galerie.</string>
+
+    <!-- Home screen tutorial: one card per supported camera, the model's own menu path first, then these shared steps -->
+    <string name="home_tutorial_title">%1$s : activer le Wi-Fi de l\'appareil</string>
+    <string name="home_tutorial_step_ssid">L\'appareil affiche un SSID (%1$s) et un mot de passe. Laissez cet écran affiché.</string>
+    <string name="home_tutorial_step_connect">Saisissez ce SSID et ce mot de passe ci-dessous, appuyez sur « Se connecter », puis acceptez la demande de connexion d\'Android.</string>
+    <string name="home_tutorial_note">Le réseau de l\'appareil n\'a pas d\'accès Internet : le téléphone continue d\'utiliser les données mobiles pour tout le reste.</string>
+
+    <!-- Sony A7R IV (ILCE-7RM4); menu labels checked against a real camera on 2026-11-02 -->
+    <string name="tutorial_sony_a7r_iv_step_1">Sur l\'appareil, appuyez sur MENU puis ouvrez l\'onglet Réseau (icône globe), page 1.</string>
+    <string name="tutorial_sony_a7r_iv_step_2">Sélectionnez « Fnct Envoi vers smartph. » puis « Env. vers smartphone ».</string>
+    <string name="tutorial_sony_a7r_iv_step_3">Choisissez « Sélect. sur smartphone » pour parcourir toutes les images depuis le téléphone, ou « Sélect. sur ce dispositif » pour n\'envoyer qu\'une sélection.</string>
+
+    <!-- Runtime permissions -->
+    <string name="permission_title">Permission nécessaire</string>
+    <string name="permission_rationale_nearby">Android demande la permission « Appareils à proximité » pour connecter l\'application au Wi-Fi de l\'appareil photo et dialoguer avec lui sur ce réseau local. Aucune position n\'est collectée.</string>
+    <string name="permission_rationale_location">Sur cette version d\'Android, la connexion au Wi-Fi de l\'appareil photo passe par la permission de localisation. L\'application n\'enregistre ni n\'envoie votre position.</string>
+    <string name="permission_continue">Continuer</string>
+    <string name="permission_cancel">Annuler</string>
+    <string name="permission_denied">Permission refusée : impossible de se connecter à l\'appareil.</string>
+
+    <!-- Hidden debug screen -->
+    <string name="debug_title">Debug découverte</string>
+    <string name="debug_back">Retour</string>
+    <string name="debug_share_logs">Partager les logs</string>
+    <string name="debug_copy_logs">Copier les logs</string>
+    <string name="debug_clear_logs">Effacer les logs</string>
+    <string name="debug_run_full">Découverte complète</string>
+    <string name="debug_run_ssdp">SSDP seul</string>
+    <string name="debug_run_ptp">PTP/IP seul</string>
+    <string name="debug_manual_url_label">URL de description UPnP (manuel)</string>
+    <string name="debug_manual_url_load">Charger</string>
+    <string name="debug_containers_title">Conteneurs découverts (appuyer pour parcourir)</string>
+    <string name="debug_not_connected">Connectez d\'abord le téléphone au Wi-Fi de l\'appareil depuis l\'écran d\'accueil.</string>
+    <string name="debug_logs_copied">Logs copiés dans le presse-papiers</string>
+    <string name="debug_logs_saved">Logs enregistrés : %1$s</string>
+    <string name="debug_empty">Aucun log. Lancez une découverte.</string>
+    <string name="debug_phase_idle">Inactif</string>
+    <string name="debug_phase_ssdp">Recherche SSDP…</string>
+    <string name="debug_phase_description">Lecture de la description UPnP…</string>
+    <string name="debug_phase_scpd">Lecture du service ContentDirectory…</string>
+    <string name="debug_phase_browse">Parcours des conteneurs…</string>
+    <string name="debug_phase_ptpip">Test PTP/IP…</string>
+    <string name="debug_phase_done">Terminé</string>
+    <string name="debug_connection_connected">Wi-Fi appareil : connecté (%1$s)</string>
+    <string name="debug_connection_disconnected">Wi-Fi appareil : non connecté</string>
+</resources>

@@ -1,0 +1,9 @@
+NOTIFY * HTTP/1.1
+HOST: 239.255.255.250:1900
+CACHE-CONTROL: max-age=1800
+LOCATION: http://192.168.122.1:64321/DmsDescPush.xml
+NT: upnp:rootdevice
+NTS: ssdp:alive
+SERVER: UPnP/1.0 SonyImagingDevice/1.0
+USN: uuid:00000000-0000-1010-8000-00aabbccddee::upnp:rootdevice
+

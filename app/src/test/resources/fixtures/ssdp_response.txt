@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+EXT:
+LOCATION: http://192.168.122.1:64321/DmsDescPush.xml
+SERVER: UPnP/1.0 SonyImagingDevice/1.0
+ST: urn:schemas-upnp-org:device:MediaServer:1
+USN: uuid:00000000-0000-1010-8000-00aabbccddee::urn:schemas-upnp-org:device:MediaServer:1
+X-AV-Physical-Unit-Info: pa="ILCE-7RM4";
+X-AV-Server-Info: av=5.0; cn="Sony Corporation"; mn="ILCE-7RM4"; mv="1.0";
+

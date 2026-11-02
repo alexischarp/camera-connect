@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The camera only speaks plain HTTP and its address is discovered at runtime, so it cannot be
+    listed here (network security config matches host names, not IP ranges). Cleartext is therefore
+    allowed at the base level and the "camera network only" restriction is enforced in code:
+    CameraHttpClient binds every socket to the camera's Network and refuses non-private addresses.
+-->
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <base-config
+        cleartextTrafficPermitted="true"
+        tools:ignore="InsecureBaseConfiguration">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

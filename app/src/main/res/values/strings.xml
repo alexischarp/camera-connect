@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default (English) resources. The French translation lives in values-fr/strings.xml;
+     keep both files in sync and declare any new locale in xml/locales_config.xml. -->
+<resources>
+    <string name="home_headline">Your camera.</string>
+    <string name="home_intro">Your photos, within reach.</string>
+    <string name="home_connection_details">Connect your camera</string>
+    <string name="app_name" translatable="false">Camera Connect</string>
+
+    <!-- Home screen -->
+    <string name="home_title" translatable="false">Camera Connect</string>
+    <string name="home_status_title">Connection status</string>
+    <string name="home_status_disconnected">Camera not connected</string>
+    <string name="home_status_connecting">Connecting to the camera\'s Wi-Fi… Accept the request shown by Android.</string>
+    <string name="home_status_connected">Connected to the camera\'s Wi-Fi</string>
+    <string name="home_status_lost">Connection lost: the camera is off or out of range.</string>
+    <string name="home_status_unavailable">Unable to connect: request declined, timed out or network not found.</string>
+    <string name="home_status_error">Error while requesting the connection. Check the permissions and that Wi-Fi is on.</string>
+    <string name="home_network_ssid">Network: %1$s</string>
+    <string name="home_network_details" translatable="false">Interface %1$s · IP %2$s</string>
+    <string name="home_network_candidates">Likely camera hosts: %1$s</string>
+    <string name="home_ssid_label">Camera SSID</string>
+    <string name="home_ssid_help">Leave empty to pick the DIRECT-… network from the list Android shows.</string>
+    <string name="home_password_label">Wi-Fi password</string>
+    <string name="home_password_show">Show password</string>
+    <string name="home_password_hide">Hide password</string>
+    <string name="home_connect">Connect</string>
+    <string name="home_disconnect">Disconnect</string>
+    <string name="home_open_gallery">Open gallery</string>
+    <string name="home_camera_searching">Looking for the camera on the network…</string>
+    <string name="home_camera_ready" translatable="false">%1$s · %2$s</string>
+    <string name="home_camera_failed_network_blocked">The phone refuses to send traffic to the camera\'s network. A VPN is probably active: turn it off, then retry.</string>
+    <string name="home_camera_failed_ssdp">The camera does not answer UPnP requests. Check that it still shows its smartphone transfer screen.</string>
+    <string name="home_camera_failed_description">The camera answered but its description could not be read.</string>
+    <string name="home_camera_failed_no_directory">The camera does not offer a ContentDirectory service in this mode.</string>
+    <string name="home_camera_untested">Untested camera model. The app may still work. If it does not, share the logs from the debug screen.</string>
+    <string name="home_retry">Retry</string>
+    <string name="home_language_change">Change language</string>
+
+    <!-- Language menu; each language is named in itself -->
+    <string name="language_system">System language</string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_french" translatable="false">Français</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">Gallery</string>
+    <string name="gallery_loading">Reading the camera\'s photos…</string>
+    <string name="gallery_loading_more">Loading older photos…</string>
+    <string name="gallery_empty">No photos on the camera.</string>
+    <string name="gallery_error">Unable to read the gallery: %1$s</string>
+    <string name="gallery_refresh">Refresh</string>
+    <string name="gallery_raw_badge" translatable="false">RAW</string>
+    <plurals name="gallery_photo_count">
+        <item quantity="one">%1$d photo loaded</item>
+        <item quantity="other">%1$d photos loaded</item>
+    </plurals>
+
+    <!-- Preview -->
+    <string name="preview_download">Download</string>
+    <string name="preview_download_again">Download again</string>
+    <string name="preview_downloading">Downloading… %1$d %%</string>
+    <string name="preview_downloading_bytes">Downloading… %1$s</string>
+    <string name="preview_saved">Photo saved to %1$s</string>
+    <string name="preview_saved_detail">Saved to %1$s (%2$s)</string>
+    <string name="preview_failed">Download failed: %1$s</string>
+    <string name="preview_raw_notice">RAW file: the camera does not transfer the original. Only a smaller JPEG version is available.</string>
+    <string name="preview_original_info" translatable="false">Original %1$s · %2$s</string>
+    <string name="preview_original_unknown">Full-resolution original</string>
+    <string name="preview_missing">Photo not found: go back to the gallery.</string>
+
+    <!-- Home screen tutorial: one card per supported camera (camera/SupportedCamera.kt), the model's own
+         menu path first, then these shared steps. -->
+    <string name="home_tutorial_title">%1$s: turn on the camera\'s Wi-Fi</string>
+    <string name="home_tutorial_step_ssid">The camera shows an SSID (%1$s) and a password. Leave that screen displayed.</string>
+    <string name="home_tutorial_step_connect">Enter that SSID and password below, tap "Connect", then accept Android\'s connection request.</string>
+    <string name="home_tutorial_note">The camera\'s network has no Internet access: the phone keeps using mobile data for everything else.</string>
+
+    <!-- Sony A7R IV (ILCE-7RM4). The French labels were checked against a real camera on 2026-11-02;
+         the English ones follow Sony's Help Guide and have not been checked on a camera set to English. -->
+    <string name="tutorial_sony_a7r_iv_step_1">On the camera, press MENU, then open the Network tab (globe icon), page 1.</string>
+    <string name="tutorial_sony_a7r_iv_step_2">Select "Send to Smartphone Func." then "Send to Smartphone".</string>
+    <string name="tutorial_sony_a7r_iv_step_3">Choose "Select on Smartphone" to browse every image from the phone, or "Select on This Device" to send only a selection.</string>
+
+    <!-- Runtime permissions -->
+    <string name="permission_title">Permission required</string>
+    <string name="permission_rationale_nearby">Android requires the "Nearby devices" permission to connect the app to the camera\'s Wi-Fi and talk to it on that local network. No location is collected.</string>
+    <string name="permission_rationale_location">On this Android version, connecting to the camera\'s Wi-Fi goes through the location permission. The app neither stores nor sends your location.</string>
+    <string name="permission_continue">Continue</string>
+    <string name="permission_cancel">Cancel</string>
+    <string name="permission_denied">Permission denied: unable to connect to the camera.</string>
+
+    <!-- Hidden debug screen -->
+    <string name="debug_title">Discovery debug</string>
+    <string name="debug_back">Back</string>
+    <string name="debug_share_logs">Share logs</string>
+    <string name="debug_copy_logs">Copy logs</string>
+    <string name="debug_clear_logs">Clear logs</string>
+    <string name="debug_run_full">Full discovery</string>
+    <string name="debug_run_ssdp">SSDP only</string>
+    <string name="debug_run_ptp">PTP/IP only</string>
+    <string name="debug_manual_url_label">UPnP description URL (manual)</string>
+    <string name="debug_manual_url_load">Load</string>
+    <string name="debug_containers_title">Discovered containers (tap to browse)</string>
+    <string name="debug_container_chip" translatable="false">%1$s (%2$s)</string>
+    <string name="debug_not_connected">Connect the phone to the camera\'s Wi-Fi from the home screen first.</string>
+    <string name="debug_logs_copied">Logs copied to the clipboard</string>
+    <string name="debug_logs_saved">Logs saved: %1$s</string>
+    <string name="debug_empty">No logs. Run a discovery.</string>
+    <string name="debug_phase_idle">Idle</string>
+    <string name="debug_phase_ssdp">SSDP search…</string>
+    <string name="debug_phase_description">Reading the UPnP description…</string>
+    <string name="debug_phase_scpd">Reading the ContentDirectory service…</string>
+    <string name="debug_phase_browse">Browsing containers…</string>
+    <string name="debug_phase_ptpip">PTP/IP probe…</string>
+    <string name="debug_phase_done">Done</string>
+    <string name="debug_connection_connected">Camera Wi-Fi: connected (%1$s)</string>
+    <string name="debug_connection_disconnected">Camera Wi-Fi: not connected</string>
+</resources>
